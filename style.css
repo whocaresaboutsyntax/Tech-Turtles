@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e3dfd8f0;
+}
+
+.navbar{
+    display: flex;
+}
+.navbar .logo{
+    margin-left: 10vw;
+}
+.navbar .logo img{
+    width: 5vw;
+    margin-top: 3px;
+    margin-left: 7vw;
+}
+
+.navbar .logo img:hover{
+    width: 5.5vw;
+}
+
+.navbar .nav{
+    margin-top: 3vh;
+
+}
+.navbar .nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 17vw;
+}
+.navbar .nav ul li{
+    list-style: none;
+    margin-left: 7vw;
+}
+.navbar .nav ul li a{
+    text-decoration: none;
+    font-family: monospace;
+    font-weight: lighter;
+    color: #413c3c;
+    font-size: 1.2rem;
+}
+
+.navbar .nav ul li a:hover{
+    font-size: 1.24rem;
+}
+
+/* CENTER  */
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 97vw;
+    height: 100vh;
+    margin-top: -5%;
+}
+
+.hero .headings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 5vw;
+    margin-left: -1vw;
+}
+
+.headings h3{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+.headings h1{
+    font-size: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.para{
+    display: block;
+    width: 27vw;
+    margin-top: 8%;
+    color: #897f7f;
+}
+
+.headings button{
+    font-size: 1rem;
+    font-weight: bold;
+    width: 40%;
+    text-align: center;
+    padding: 11px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    font-family: sans-serif;
+    box-shadow: 0 4px 8px 0 #413c3c30;
+    margin-top: 5vh;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: aliceblue;
+}
+
+button:active{
+    color: rgb(85, 85, 84);
+    background-color: white;
+}
+
+.person{
+    margin-left: 4%;
+    margin-top: 7vh;
+}
+
+.person img{
+    width: 26vw;
+}
+
+.person img:hover{
+    width: 28vw;
+}
